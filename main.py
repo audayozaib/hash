@@ -17,8 +17,8 @@ app = Flask(__name__)
 
 # الإعدادات من متغيرات Railway
 CONFIG = {
-    'tg_token': os.getenv('8424629993:AAFUwn5SAkq78wGML9WRt5KSr9o9aJ_thCs'),
-    'vt_key': os.getenv('0017f41ba8d15d3721c762f29d2c359d33101a570b41fd651dac1cd78343335c'),
+    'tg_token': os.getenv('TG_BOT_TOKEN',"8424629993:AAFUwn5SAkq78wGML9WRt5KSr9o9aJ_thCs"),
+    'vt_key': os.getenv('VT_API_KEY',"0017f41ba8d15d3721c762f29d2c359d33101a570b41fd651dac1cd78343335c"),
     'openai_key': os.getenv('OPENAI_KEY',"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")
 }
 
